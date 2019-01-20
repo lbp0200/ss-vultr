@@ -18,13 +18,13 @@
 
 `Type`->`Boot`
 
-最后一项，打开，复制里面的内容，粘贴进去
+最后一项，复制粘贴[在线部署SS脚本链接](https://raw.githubusercontent.com/lbp0200/ss-vultr/master/VultrStartupScript.sh)里面的内容
 
-第二行是参数
+修改脚本第三行`PWD=PhrelnesI`
 
-PWD填你自己的密码
+`PhrelnesI`是默认的SS密码，修改为你自己的密码，比如`PWD=mima123`
 
-PORT端口号，不建议修改
+PORT是端口号，`PORT=8388`代表SS服务端的端口号是8388
 
 最后，点最下方蓝色按钮`Add Script`
 
